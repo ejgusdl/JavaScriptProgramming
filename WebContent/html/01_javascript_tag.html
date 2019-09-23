@@ -20,12 +20,11 @@
 	border-right: 1px solid black;
 }
 
-#center {
-	flex-grow =1;
-	padding:10px;	
+#center {flex-grow =1;
+	padding: 10px;
 }
 
-#center h4{
+#center h4 {
 	margin-top: 0px;
 }
 
@@ -34,6 +33,9 @@
 	margin-top: 10px;
 }
 </style>
+<script type="text/javascript">
+	console.log("Hello JavaScript0");
+</script>
 </head>
 <body>
 	<div id="wrapper">
@@ -50,7 +52,20 @@
 					<li>01_javascript_tag.html</li>
 				</ul>
 			</div>
-			<div id="center"></div>
+			<div id="center">
+				<h4>01_javascript_tag.html</h4>
+
+				<script type="text/javascript">
+					console.log("Hello JavaScript1");
+				</script>
+
+				<script type="text/javascript">
+					console.log("Hello JavaScript2");
+					console.log("Hello JavaScript3");
+				</script>
+
+
+			</div>
 		</div>
 
 		<div id="footer">2019. IoT. P.D.H</div>
